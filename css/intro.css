@@ -1,0 +1,157 @@
+.introduction__upper{
+    position:relative;
+    padding:200px 0 150px
+}
+@media (max-width:1365px){
+    .introduction__upper{
+        padding:150px 0
+    }
+}
+@media (max-width:1023px){
+    .introduction__upper{
+        padding:75px 0
+    }
+}
+@media (max-width:767px){
+    .introduction__upper{
+        padding:50px 0 140px
+    }
+}
+
+.intro__moto{
+    position:relative;
+    padding:0 25% 0 16.66667%
+}
+@media (max-width:1365px){
+    .intro__moto{
+        padding:0 16.66667% 0 8.33333%
+    }
+}
+@media (max-width:767px){
+    .intro__moto{
+        padding:0
+    }
+}
+
+.justified{
+    text-align:justify;
+    margin:0 0 -21px
+}
+@media (max-width:1365px){
+    .justified{
+        margin:0 0 -17px
+    }
+}
+@media (max-width:1023px){
+    .justified{
+        margin:0 0 -14px
+    }
+}
+.justified span{
+    width:100%;
+    display:inline-block!important
+}
+.justified.h2{
+    margin:0 0 -64px
+}
+@media (max-width:1365px){
+    .justified.h2{
+        margin:0 0 -48px
+    }
+}
+@media (max-width:1023px){
+    .justified.h2{
+        margin:0 0 -38px
+    }
+}
+@media (max-width:767px){
+    .justified.h2{
+        margin:0 0 -28px
+    }
+}
+
+.introduction__lower{
+    position:relative;
+    padding:0 0 0 58.33333%
+}
+
+.introduction__lower p{
+    margin-right: 100px;
+}
+
+
+@media (max-width:1100px){
+    .introduction__lower{
+        padding:0
+    }
+
+    .introduction__lower p{
+    margin-left: 50px;
+    width: 80%;
+}
+}
+.intro__icon{
+    position:absolute;
+    bottom:0;
+    left:16.66667%
+}
+@media (max-width:1365px){
+    .intro__icon{
+        left:8.33333%
+    }
+}
+@media (max-width:767px){
+    .intro__icon{
+        left:0;
+        top:-70px;
+        width:40px
+    }
+}
+.motivation__container{
+    position:relative;
+    margin:0 -80px
+}
+.slogan{
+    overflow:hidden;
+    padding:150px
+}
+
+#main{
+    float: right;
+    padding-right: 280px
+}
+@media (max-width:1023px){
+    .slogan{
+        padding:75px 0
+    }
+}
+@media (max-width:767px){
+    .slogan{
+        padding:40px 0 50px
+        margin-left: 10px;
+    }
+
+    .unicorn{
+        display: none;
+    }
+
+    #main{
+        display: none;
+    }
+}
+
+@media (max-width:1100px){
+     #main{
+        display: none;
+    }
+
+    .unicorn{
+        display: none;
+
+    }
+
+}
+
+.slogan__text{
+    white-space:nowrap
+}

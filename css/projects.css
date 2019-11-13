@@ -1,0 +1,125 @@
+
+
+
+
+
+
+
+/*================END OF TOP NAVIGATION==================*/
+
+
+
+
+/*================BIG MAIN NAVIGATION==================*/
+
+.global_nav{
+
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  align-items: center;
+  -webkit-transition: 0.9s ease-in-out;
+  -o-transition: 0.9s ease-in-out;
+  transition: 0.9s ease-in-out;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 0;
+
+
+}
+
+
+.global-nav-list a::before {
+  content: '';
+  display: inline-block;
+  height:15px;
+  background-color: white;
+  position: absolute;
+  top: 49%;
+  width: 0%;
+  transition: all ease-in-out .5s;
+}
+
+.global-nav-list a:hover::before {
+  width: 100%;
+
+
+}
+
+.global-nav-list {
+
+  position: fixed;
+  margin: 0 auto;
+  padding: 0;
+  top:40%;
+  width: 80%;
+  right: 10%;
+  left: 0%;
+  text-align: left;
+
+}
+
+
+
+ul {
+  list-style: none;
+
+}
+
+.global-nav-list li {
+  margin-top: 0rem;
+  position: relative;
+
+
+
+}
+
+
+.global-nav-list a {
+
+  display: inline-block;
+  color: lightgray;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  text-decoration: none;
+  font-size: 5em;
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 500;
+  color: transparent;
+  -webkit-text-stroke: 1px blue;
+
+}
+
+
+.global-nav-list a:hover{
+  color:blue;
+  transition: color .5s ease-in-out;
+  text-decoration: none;
+}
+
+
+
+#cursor{
+  position: absolute;
+  display: none;
+  z-index: 100;
+
+
+}
+
+#cursor img{
+
+  width: 600px;
+  
+}
+
+/*================END OF BIG MAIN NAVIGATION==================*/
