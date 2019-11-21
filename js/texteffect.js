@@ -1,36 +1,36 @@
- // container = document.getElementById("main");
+ container = document.getElementById("main");
 
- //    var text = new Blotter.Text("繼續往下滑 / Scroll Down", {
- //        family: "serif",
- //        size: 100,
- //        fill: "blue",
- //        paddingLeft: 80,
- //        paddingRight: 80,
- //        paddingTop: 80,
- //        paddingBottom: 80
- //    })
+    var text = new Blotter.Text("About Me", {
+        family: "serif",
+        size: 150,
+        fill: "blue",
+        paddingLeft: 80,
+        paddingRight: 80,
+        paddingTop: 80,
+        paddingBottom: 80
+    })
 
- //    var material = new Blotter.ChannelSplitMaterial();
- //    material.uniforms.uOffset.value = 0.05;
- //    material.uniforms.uRotation.value = 50;
- //    material.uniforms.uApplyBlur.value = 0;
- //    material.uniforms.uAnimateNoise.value = 0.3;
+    var material = new Blotter.ChannelSplitMaterial();
+    material.uniforms.uOffset.value = 0.05;
+    material.uniforms.uRotation.value = 50;
+    material.uniforms.uApplyBlur.value = 10;
+    material.uniforms.uAnimateNoise.value = 0.3;
 
- //    var blotter = new Blotter(material, {
- //        texts: text
- //    })
+    var blotter = new Blotter(material, {
+        texts: text
+    })
 
- //    var scope = blotter.forText(text);
+    var scope = blotter.forText(text);
 
- //    scope.appendTo(container);
+    scope.appendTo(container);
 
- //    // Add mousemove effect
+    // Add mousemove effect
 
- //    document.onmousemove = moveIt;
- //    function moveIt(event) {
- //        material.uniforms.uRotation.value = (event.clientY * 0.1);
- //        material.uniforms.uOffset.value = (event.clientY * 0.0001);
- //    }
+    document.onmousemove = moveIt;
+    function moveIt(event) {
+        material.uniforms.uRotation.value = (event.clientY * 0.1);
+        material.uniforms.uOffset.value = (event.clientY * 0.0001);
+    }
 
 
 
@@ -61,26 +61,28 @@
 
 
 //dot effect
-    container = document.getElementById("main");
+    // container = document.getElementById("main");
 
-    var text = new Blotter.Text("About Me", {
-        family: "serif",
-        size: 150,
-        fill: "blue",
-        paddingLeft: 80,
-        paddingRight: 80,
-        paddingTop: 80,
-        paddingBottom: 80
-    });
+    // var text = new Blotter.Text("About Me", {
+    //     family: "serif",
+    //     size: 150,
+    //     fill: "blue",
+    //     paddingLeft: 80,
+    //     paddingRight: 80,
+    //     paddingTop: 80,
+    //     paddingBottom: 80
+    // });
 
-    var material = new Blotter.FliesMaterial();
-    material.uniforms.uPointCellWidth.value = 0.01;
-    material.uniforms.uPointRadius.value = 0.7;
-    material.uniforms.uSpeed.value = 3;
+    // var material = new Blotter.FliesMaterial();
+    // material.uniforms.uPointCellWidth.value = 0.02;
+    // material.uniforms.uPointRadius.value = 0.7;
+    // material.uniforms.uSpeed.value = 3;
 
-    var blotter = new Blotter(material, {
-        texts: text
-    });
+    // var blotter = new Blotter(material, {
+    //     texts: text
+    // });
 
-    var scope = blotter.forText(text);
-    scope.appendTo(container);
+    // var scope = blotter.forText(text);
+    // scope.appendTo(container);
+
+

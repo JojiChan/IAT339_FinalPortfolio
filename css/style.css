@@ -8,6 +8,9 @@ html, body {
       font-family: "Roboto Mono", sans-serif !important;
       background: white !important;
       color: blue !important;
+    
+  scroll-behavior: smooth;
+
 
 }
 
@@ -322,7 +325,7 @@ h6 {
 }
 
 .project1 {
-      background-image: url(http://thisisjoji.com/images/projects/bolin233-8.jpg);
+      background-image: url(http://www.sfu.ca/~ggc1/IAT339_Port_Img/bolin233-8-min.jpg);
       background-size: cover;
       background-repeat: no-repeat;
 
@@ -332,6 +335,7 @@ h6 {
 
 
 .project1::after {
+      
       content: "dark dreams.";
       position: relative;
       color: blue;
@@ -353,13 +357,13 @@ h6 {
 
 
 .project2 {
-      background: url(http://thisisjoji.com/images/projects/01.jpg) no-repeat 50% 50%;
+      background: url(http://www.sfu.ca/~ggc1/IAT339_Port_Img/duck-wall-min.jpg) no-repeat 50% 50%;
       background-size: cover;
      
 }
 
 .project2::after {
-      content: "abstraction.";
+      content: "CHEN OL' DUCK.";
       position: relative;
       color: blue;
       display: block;
@@ -400,7 +404,7 @@ h6 {
 }
 
 .project4 {
-      background: url(http://thisisjoji.com/images/projects/game2-1.jpg);
+      background: url(http://www.sfu.ca/~ggc1/IAT339_Port_Img/game2-1-min.jpg);
       background-repeat:  no-repeat;
       background-size: cover;
       transition: opacity .5s ease-in-out;
@@ -644,5 +648,7 @@ textarea:focus {
             padding-top: 100px;
       }
 }
+
+
 
 

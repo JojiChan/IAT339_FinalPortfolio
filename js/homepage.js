@@ -17,7 +17,7 @@
             //product link hovering display image
             $("#pro").hover(function(){
              $("#cursor").css("display","inline-block");
-             $("#brand_1").attr("src","img/bolin233-11.jpg");
+             $("#brand_1").attr("src","img/thumbnail/bolin233-11-min.jpg");
            },function(){
             $("#cursor").css("display","none");
             $("#brand_1").attr("src","bolin233-11.jpg");
@@ -32,7 +32,7 @@
             //about link hovering display image
             $("#abo").hover(function(){
              $("#cursor").css("display","inline-block");
-             $("#brand_1").attr("src","img/duck-wall.jpg");
+             $("#brand_1").attr("src","img/thumbnail/duck-wall-min.jpg");
            },function(){
             $("#cursor").css("display","none");
             $("#brand_1").attr("src","img/duck-wall.jpg");
@@ -43,7 +43,7 @@
             //showcase link hovering display image
             $("#show").hover(function(){
              $("#cursor").css("display","inline-block");
-             $("#brand_1").attr("src","img/game2-1.jpg");
+             $("#brand_1").attr("src","img/thumbnail/game2-1-min.jpg");
            },function(){
             $("#cursor").css("display","none");
             $("#brand_1").attr("src","img/game2-1.jpg");
@@ -55,7 +55,7 @@
             //citation link hovering display image
             $("#cit").hover(function(){
              $("#cursor").css("display","inline-block");
-             $("#brand_1").attr("src","img/Pattern-05.jpg");
+             $("#brand_1").attr("src","img/thumbnail/Pattern-05-min.jpg");
            },function(){
             $("#cursor").css("display","none");
             $("#brand_1").attr("src","img/Pattern-05.jpg");

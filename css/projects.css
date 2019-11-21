@@ -80,7 +80,6 @@ ul {
 .global-nav-list a {
 
   display: inline-block;
-  color: lightgray;
   line-height: 1.5;
   letter-spacing: 0.1em;
   -webkit-transform: translate3d(0, 0, 0);
@@ -123,3 +122,18 @@ ul {
 }
 
 /*================END OF BIG MAIN NAVIGATION==================*/
+
+
+@media(max-width: 1000px){
+
+.global-nav-list a{
+  color: blue;
+  -webkit-text-stroke: 1px blue;
+}
+
+#cursor img{
+  display: none;
+}
+
+
+}
