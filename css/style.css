@@ -650,5 +650,13 @@ textarea:focus {
 }
 
 
+.col-lg-12 a{
+      color: blue;
+      transition: all .5s ease-in-out;
+}
 
 
+.col-lg-12 a:hover{
+      background-color: yellow;
+      text-decoration: none;
+}
